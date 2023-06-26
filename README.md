@@ -121,5 +121,5 @@ sam delete --stack-name user-api
 ```
 ## Diagram
 
-
-(https://hub.docker.com/search/?type=edition&offering=community)
+[Diagram]
+([https://hub.docker.com/search/?type=edition&offering=community](https://raw.githubusercontent.com/omaraurea/user-api/main/diagram.png?token=GHSAT0AAAAAACEKMD4XHUUIKKU7DUXBPTOWZEZWYHQ)https://raw.githubusercontent.com/omaraurea/user-api/main/diagram.png?token=GHSAT0AAAAAACEKMD4XHUUIKKU7DUXBPTOWZEZWYHQ)
