@@ -44,6 +44,8 @@ The first command will build the source of your application. The second command 
 
 You can find your API Gateway Endpoint URL in the output values displayed after deployment.
 
+![alt text](https://github.com/omaraurea/user-api/blob/main/endpoint.png)
+
 ## Use the SAM CLI to build and test locally
 
 Build your application with the `sam build` command.
@@ -112,8 +114,5 @@ To delete the sample application that you created, use the AWS CLI. Assuming you
 sam delete --stack-name user-api
 ```
 ## Diagram
-
-
-Try this markdown:
 
 ![alt text](https://github.com/omaraurea/user-api/blob/main/diagram.png)
