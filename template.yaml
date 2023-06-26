@@ -33,7 +33,7 @@ Outputs:
   # https://github.com/awslabs/serverless-application-model/blob/master/docs/internals/generated_resources.rst#api
   ValidatePasswordUserApi:
     Description: "API Gateway endpoint URL to validate password"
-    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/hello/"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/users"
   ValidatePasswordFunctionFunction:
     Description: "ValidatePasswordFunction Function ARN"
     Value: !GetAtt ValidatePasswordFunction.Arn
